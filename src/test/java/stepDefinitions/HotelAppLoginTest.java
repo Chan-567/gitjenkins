@@ -36,6 +36,7 @@ public class HotelAppLoginTest {
 	@When("user enters username as {string}")
 	public void user_enters_username_as(String string) {
 	    // Write code here that turns the phrase above into concrete actions
+		System.out.println("vdhhw");
 		driver.findElement(By.id("username")).sendKeys(string);
 	}
 
