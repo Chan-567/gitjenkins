@@ -24,12 +24,12 @@ public class HotelAppLoginTest {
 	WebDriver driver = new ChromeDriver();
 	ExtentTest testCase;
 	String ExpectedText = "Hello vasuvespag";
-	System.out.println("fghwrgk");
+	
 	
 	@Given("I am on HotelApp login page")
 	public void i_am_on_hotel_app_login_page() {
 	    // Write code here that turns the phrase above into concrete actions
-		
+		System.out.println("fghwrgk");
 		driver.navigate().to("http://adactinhotelapp.com/");
 	}
 
