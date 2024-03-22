@@ -24,6 +24,7 @@ public class HotelAppLoginTest {
 	WebDriver driver = new ChromeDriver();
 	ExtentTest testCase;
 	String ExpectedText = "Hello vasuvespag";
+	System.out.println("fghwrgk");
 	
 	@Given("I am on HotelApp login page")
 	public void i_am_on_hotel_app_login_page() {
@@ -92,7 +93,7 @@ public class HotelAppLoginTest {
 	    // Write code here that turns the phrase above into concrete actions
 	    //throw new io.cucumber.java.PendingException();
 	}
-	System.out.println("Chjukhuhhif");
+	//System.out.println("Chjukhuhhif");
 
 
 
